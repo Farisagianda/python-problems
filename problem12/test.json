@@ -1,0 +1,9 @@
+{
+  "status": "OK",
+  "metrics": {
+    "cpu_usage": "78%",
+    "memory_usage": "65%",
+    "disk_free": "120GB"
+  },
+  "alerts": []
+}
