@@ -8,7 +8,7 @@ def main_module(s):
         print("ALERT")
 
 def main(s):
-    if sorted(list(s.values()))[-1] > 80:
+    if max(list(s.values())) > 80:
         print("ALERT")
     else:
         print("OK")
