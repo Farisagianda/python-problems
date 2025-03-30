@@ -1,0 +1,23 @@
+1. Log File Analysis
+Problem:
+You have a log file with lines in the format:
+
+csharp
+Copy
+Edit
+[2024-03-29 12:15:00] ERROR Service crashed at endpoint /api/v1/users
+[2024-03-29 12:16:00] INFO Request processed successfully
+[2024-03-29 12:17:00] ERROR Database connection failed
+Write a script to:
+
+Count the number of ERROR logs.
+
+Extract unique endpoints where errors occurred.
+
+Example Output:
+
+python
+Copy
+Edit
+Total ERROR logs: 2
+Endpoints with errors: ['/api/v1/users']

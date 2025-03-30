@@ -1,0 +1,22 @@
+3. Detect High Latency Requests
+Problem:
+Given a list of API requests with response times, filter out requests that took longer than a given threshold (e.g., 500ms).
+
+Example Input:
+
+requests = [
+    {"endpoint": "/api/v1/login", "response_time": 200},
+    {"endpoint": "/api/v1/data", "response_time": 800},
+    {"endpoint": "/api/v1/status", "response_time": 1000},
+    {"endpoint": "/api/v1/users", "response_time": 400},
+]
+
+
+threshold = 500
+
+Expected Output:
+
+[
+    {"endpoint": "/api/v1/data", "response_time": 800},
+    {"endpoint": "/api/v1/status", "response_time": 1000},
+]

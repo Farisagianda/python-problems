@@ -1,0 +1,15 @@
+Check System Health Status
+Problem:
+Write a function that checks system health based on CPU, Memory, and Disk Usage. If any usage exceeds 80%, return "ALERT", otherwise return "OK".
+
+Example Input:
+
+system_status = {
+    "cpu": 75,
+    "memory": 85,
+    "disk": 60
+}
+Expected Output:
+
+"ALERT"
+(Since memory is over 80%)

@@ -1,0 +1,18 @@
+4. Memory Usage Analyzer
+Problem:
+Given a list of processes with their memory usage (MB), find the top N processes consuming the most memory.
+
+Example Input:
+
+processes = [
+    {"name": "nginx", "memory": 150},
+    {"name": "mysql", "memory": 1200},
+    {"name": "python", "memory": 800},
+    {"name": "java", "memory": 400},
+]
+
+
+N = 2
+Expected Output:
+
+[{"name": "mysql", "memory": 1200}, {"name": "python", "memory": 800}]
