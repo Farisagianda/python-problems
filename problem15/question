@@ -1,0 +1,71 @@
+🚀 1. Check for Near-Earth Asteroids on a Given Date
+Description:
+Write a script that accepts a date via command-line and prints the list of near-Earth asteroids that were close to Earth on that day using NASA’s NeoWs API.
+
+CLI Usage:
+
+python check_asteroids.py --date 2025-04-01
+Requirements:
+
+Use argparse to accept --date
+
+Fetch from: https://api.nasa.gov/neo/rest/v1/feed
+
+Display name, estimated diameter, miss distance (km), and whether it’s potentially hazardous
+
+☄️ 2. Find the Closest Asteroid in a Date Range
+Description:
+Write a script that accepts --start-date and --end-date and finds the asteroid that passed closest to Earth during that time.
+
+CLI Usage:
+
+python closest_asteroid.py --start-date 2025-04-01 --end-date 2025-04-07
+Requirements:
+
+Use argparse for --start-date and --end-date
+
+Sort asteroids by miss distance and print the closest one
+
+🌌 3. Check the Astronomy Picture of the Day (APOD)
+Description:
+Write a CLI tool that gets the NASA Astronomy Picture of the Day.
+
+CLI Usage:
+
+python apod.py [--date YYYY-MM-DD]
+Requirements:
+
+If no date is passed, default to today
+
+Print the title, date, and explanation
+
+Optionally show the image URL or download it
+
+🛰 4. Check Hazardous Asteroids for the Week
+Description:
+Create a CLI that checks for only potentially hazardous asteroids for a given week.
+
+CLI Usage:
+
+python hazardous.py --week-of 2025-04-01
+Requirements:
+
+Use --week-of as the start date
+
+Print asteroid names and miss distances
+
+Highlight any with a miss distance < 1 million km
+
+🪐 5. Interactive Asteroid Detail Lookup
+Description:
+Pass an asteroid ID or name via command line and fetch its full details.
+
+CLI Usage:
+
+python asteroid_info.py --id 3542519
+Requirements:
+
+Use this endpoint: https://api.nasa.gov/neo/rest/v1/neo/{asteroid_id}
+
+Print orbiting body, close approaches, velocity, etc.
+
