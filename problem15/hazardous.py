@@ -47,4 +47,6 @@ def main():
                 print(f"Name: {name}, Miss distance: {miss_distance}km")
             elif asteroid["is_potentially_hazardous_asteroid"] == True and miss_distance < 10**6:
                 print(f"Name: {name}, Miss distance: {miss_distance}km  -> Hazardous!")
+            else:
+                print("No potentially hazardous asteroid found.")
 main()
