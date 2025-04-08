@@ -1,0 +1,51 @@
+1. Dinosaur with the Largest and Smallest Feet
+Problem:
+Given a CSV file containing dinosaur details (with columns such as "Name", "Foot Length", "Weight", "Diet", etc.), write a script that:
+
+Reads the CSV file.
+
+Finds and prints the details of the dinosaur with the largest foot length.
+
+Finds and prints the details of the dinosaur with the smallest foot length.
+
+2. Filter Dinosaurs by Foot Size Threshold
+Problem:
+Write a script that:
+
+Accepts a CSV file of dinosaur data.
+
+Allows the user to input a foot length threshold (via command-line argument).
+
+Prints the details of all dinosaurs with a foot length greater than the given threshold (i.e., "big feet" dinosaurs).
+
+3. Group and Compare by Diet
+Problem:
+Create a script that:
+
+Reads dinosaur data from a CSV file.
+
+Groups the dinosaurs by their diet (e.g., Carnivore, Herbivore, Omnivore).
+
+For each diet group, calculates and prints the average foot length.
+
+Additionally, prints the dinosaur with the maximum foot length in each diet group.
+
+4. Sort and Rank Dinosaurs by Foot Length
+Problem:
+Develop a script that:
+
+Reads a CSV file containing dinosaur information.
+
+Sorts the dinosaurs by foot length in descending order.
+
+Displays the top N dinosaurs with the largest feet, where N is a parameter provided by the user (using argparse).
+
+5. Interactive Dinosaur Detail Lookup
+Problem:
+Design a script that:
+
+Reads dinosaur data from a CSV file.
+
+Allows the user to search for a dinosaur by name (or partial name match) via a command-line argument.
+
+Returns and prints all details (including foot length, weight, diet, etc.) for the matching dinosaur(s).
