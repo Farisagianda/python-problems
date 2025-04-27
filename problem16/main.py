@@ -97,7 +97,21 @@ def top_large_feet(dino_info, n):
     for dino in top_n:
         print(", ".join([f"{key}: {value}" for key,value in dino.items()]))
 
+"""
+5. Interactive Dinosaur Detail Lookup
+Problem:
+Design a script that:
 
+Reads dinosaur data from a CSV file.
+
+Allows the user to search for a dinosaur by name (or partial name match) via a command-line argument.
+
+Returns and prints all details (including foot length, weight, diet, etc.) for the matching dinosaur(s).
+"""
+def search_dino(dino_info, name):
+    for dino in dino_info:
+        if dino['Name'] == name:
+            print(dino)
 
 def main():
     dino_info = []
@@ -107,6 +121,7 @@ def main():
     parser.add_argument("--foot-threshold", type=int)
     parser.add_argument("--group-by-diet", action="store_true")
     parser.add_argument("--top-large-feet", type=int)
+    parser.add_argument("--name", type=str)
     args = parser.parse_args()
     with open(args.csvfile, "r") as file:
         data = file.read()
@@ -129,5 +144,7 @@ def main():
         group_by_diet(dino_info)
     if args.top_large_feet:
         top_large_feet(dino_info, args.top_large_feet)
+    if args.name:
+        search_dino(dino_info, args.name)
 
 main()
