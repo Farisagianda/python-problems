@@ -20,6 +20,10 @@ Then the answer is 4.
 
     Helps you get comfortable with the structure of a linked list.
 """
+class Node:
+  def __init__(self, val):
+    self.val = val
+    self.next = None
 
 class linklist:
   def __init__(self):
@@ -32,3 +36,13 @@ class linklist:
       count += 1
       current = current.next
     return count
+
+
+data = Node(1)
+data.next = Node(2)
+data.next.next = Node(3)
+data.next.next.next = Node(4)
+
+print(linklist().checklength(data))
+
+

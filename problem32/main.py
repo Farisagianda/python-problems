@@ -18,13 +18,17 @@ Output: 30  # second middle
 
 class LinkedList:
   def middleLinkList(self, head):
-     current = head
-     pointerA, pointerB = current, current
-     while pointerB:
-       pointerA = pointerA.next
-       pointerB = pointerB.next.next
-     print(pointerA.val)
-     return pointerA.val
+      if not head:
+          return None
+      slow = head
+      fast = head
+      while fast and fast.next:
+          slow = slow.next
+          fast = fast.next.next
+      return slow.val
+
+
+
 
 class Node:
   def __init__(self, val):
@@ -34,6 +38,9 @@ class Node:
 head = Node(10)
 head.next = Node(20)
 head.next.next = Node(30)
+head.next.next.next = Node(40)
+head.next.next.next.next = Node(50)
+head.next.next.next.next.next = Node(60)
 
 ll = LinkedList()
 print(ll.middleLinkList(head))
