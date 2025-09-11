@@ -1,0 +1,3 @@
+{"timestamp": "2025-08-01T14:23:05Z", "transaction_id": "TX123456", "status": "FAILED", "error_code": "INSUFFICIENT_FUNDS", "amount": 49.99, "currency": "USD", "user_id": 9876}
+{"timestamp": "2025-08-01T10:15:12Z", "transaction_id": "TX789101", "status": "SUCCESS", "error_code": null, "amount": 10.00, "currency": "USD", "user_id": 1234}
+{"timestamp": "2025-08-01T15:30:45Z", "transaction_id": "TX543210", "status": "FAILED", "error_code": "CARD_EXPIRED", "amount": 15.00, "currency": "GBP", "user_id": 1234}

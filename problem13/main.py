@@ -22,18 +22,14 @@ Expected Output:
 
 def main(n):
     ans = []
-    parts = [l.split() for l in n.strip().split('\n')]
-    header = parts[0]
-    content = parts[1:]
-    for line in content:
-        d = {}
-        for i,v in enumerate(header):
-            if v == 'Filesystem' or v == 'Size' or v == 'Used':
-                d[v.lower()] = line[i]
-        ans.append(d)
+    n_list = n.strip().splitlines()
+    for line in n_list[1:]:
+        line = line.split()
+        ans.append(
+            {"filesystem": line[0], "size": line[1], "used": line[2]}
+        )
     print(ans)
-
-
+    return ans
 
 n = """
 Filesystem      Size  Used Avail Use% Mounted on
