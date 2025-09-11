@@ -1,0 +1,5 @@
+2025-08-10T19:26:00Z INFO  Startup complete
+2025-08-10T19:26:10Z ERROR Database timeout req_id=abc123
+2025-08-10T19:26:20Z WARN  Slow query 4200ms
+2025-08-10T19:26:25Z ERROR Payment gateway failed req_id=def456
+2025-08-10T19:27:05Z ERROR Database timeout req_id=xyz999

@@ -1,0 +1,8 @@
+2025-08-10 09:55:03 INFO  Starting application...
+2025-08-10 09:55:04 INFO  Connected to Database successfully.
+2025-08-10 09:55:05 ERROR Database connection failed: timeout after 30s
+2025-08-10 09:55:06 WARN  Retrying connection...
+2025-08-10 09:55:07 INFO  Connected to Database successfully.
+2025-08-10 09:55:08 ERROR Payment API failed due to timeout
+2025-08-10 09:55:09 ERROR Database transaction rollback failed
+2025-08-10 09:55:10 INFO  Application running normally

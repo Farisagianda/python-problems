@@ -1,0 +1,10 @@
+{"user_id": 101, "endpoint": "/login", "status_code": 500, "timestamp": "2025-07-31T14:25:30Z"}
+{"user_id": 102, "endpoint": "/get-data", "status_code": 500, "timestamp": "2025-07-31T15:00:10Z"}
+{"user_id": 101, "endpoint": "/submit-form", "status_code": 503, "timestamp": "2025-07-31T09:15:00Z"}
+{"user_id": 103, "endpoint": "/login", "status_code": 500, "timestamp": "2025-07-31T08:10:45Z"}
+{"user_id": 101, "endpoint": "/login", "status_code": 500, "timestamp": "2025-08-03T08:10:45Z"}
+{"user_id": 102, "endpoint": "/login", "status_code": 500, "timestamp": "2025-08-04T08:10:45Z"}
+{"user_id": 104, "endpoint": "/login", "status_code": 500, "timestamp": "2025-08-04T08:10:45Z"}
+{"user_id": 104, "endpoint": "/login", "status_code": 500, "timestamp": "2025-08-04T08:10:45Z"}
+{"user_id": 104, "endpoint": "/login", "status_code": 500, "timestamp": "2025-08-04T08:10:45Z"}
+{"user_id": 104, "endpoint": "/login", "status_code": 500, "timestamp": "2025-08-04T08:10:45Z"}

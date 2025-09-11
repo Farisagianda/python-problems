@@ -1,0 +1,4 @@
+2025-08-10T19:26:02Z INFO  Ready
+2025-08-10T19:26:11Z ERROR Cache miss storm shard=4
+2025-08-10T19:26:12Z ERROR Cache backend down shard=4
+2025-08-10T19:27:10Z INFO  Recovered
