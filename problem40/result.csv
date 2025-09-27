@@ -1,0 +1,4 @@
+timestamp,username,ip,status
+2025-08-12 10:31:02,alice,203.0.113.9,Failed
+2025-08-12 10:31:07,bob,2001:db8:abcd::42,Accepted
+2025-08-12 10:31:11,deploy-bot,198.51.100.77,Failed

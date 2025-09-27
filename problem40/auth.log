@@ -1,0 +1,3 @@
+Aug 12 10:31:02 ip-10-0-1-23 sshd[2142]: Failed password for alice from 203.0.113.9 port 50212 ssh2
+Aug 12 10:31:07 ip-10-0-1-23 sshd[2142]: Accepted password for bob from 2001:db8:abcd::42 port 54422 ssh2
+Aug 12 10:31:11 ip-10-0-1-23 sshd[2142]: Failed password for invalid user deploy-bot from 198.51.100.77 port 51515 ssh2
